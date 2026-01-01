@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Factory Cafe - Premium Coffee & Food</title>
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Bootstrap 5 CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    
+    <!-- External CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-light">
+    
+    <!-- Three-Dot Navigation -->
+    <div class="three-dot-nav">
+        <button class="three-dot-btn" id="navToggle">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </button>
+        <div class="dropdown-menu-custom" id="dropdownMenu">
+            <a href="#overview">Overview</a>
+            <a href="#menu">Menu</a>
+            <a href="#reviews">Reviews</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact Us</a>
+        </div>
+    </div>
+    
+    <!-- Hero Section -->
+    <section id="overview" class="hero-section d-flex align-items-center justify-content-center text-white">
+        <div class="container text-center">
+            <h1 class="bungee-font bouncy-title display-1 mb-4">Coffee Factory Cafe</h1>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="mb-4">
+                        <i class="bi bi-geo-alt-fill me-2"></i>
+                        <span class="fs-5">13 Gawler St, Port Noarlunga South</span>
+                    </div>
+                    <div class="bg-white bg-opacity-10 rounded-3 p-4">
+                        <h3 class="mb-3">Opening Hours</h3>
+                        <div class="row text-start">
+                            <div class="col-6">
+                                <p><strong>Monday:</strong> 6:30 AM - 3:00 PM</p>
+                                <p><strong>Tuesday:</strong> 6:30 AM - 3:00 PM</p>
+                                <p><strong>Wednesday:</strong> 6:30 AM - 3:00 PM</p>
+                                <p><strong>Thursday:</strong> 6:30 AM - 3:00 PM</p>
+                            </div>
+                            <div class="col-6">
+                                <p><strong>Friday:</strong> 6:30 AM - 3:00 PM</p>
+                                <p><strong>Saturday:</strong> 7:00 AM - 2:00 PM</p>
+                                <p><strong>Sunday:</strong> 7:00 AM - 2:00 PM</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Secondary Navigation -->
+    <nav class="secondary-nav">
+        <div class="container text-center">
+            <a href="#overview">Overview</a>
+            <a href="#menu">Menu</a>
+            <a href="#reviews">Reviews</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+    
+    <!-- Menu Section -->
+    <section id="menu" class="section-padding">
+        <div class="container">
+            <h2 class="text-center mb-5 bungee-font display-4">Our Menu</h2>
+            
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="menu-category animate__animated animate__fadeInLeft">
+                        <h3 class="mb-4 bungee-font text-primary">Food</h3>
+                        <div class="menu-item">
+                            <span class="menu-item-name">Seasoned Chips</span>
+                            <span class="menu-item-price">$12.00</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="menu-item-name">Ham / Cheese / Tomato</span>
+                            <span class="menu-item-price">$16.00</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="menu-item-name">Hashbrown / Cheese / Bacon Mayo</span>
+                            <span class="menu-item-price">$18.00</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6">
+                    <div class="menu-category animate__animated animate__fadeInRight">
+                        <h3 class="mb-4 bungee-font text-primary">Drinks</h3>
+                        <div class="menu-item">
+                            <span class="menu-item-name">Coke</span>
+                            <span class="menu-item-price">$4.80</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="menu-item-name">Coke Zero</span>
+                            <span class="menu-item-price">$4.80</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="menu-item-name">Still Water</span>
+                            <span class="menu-item-price">$4.80</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Reviews Section -->
+    <section id="reviews" class="section-padding bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5 bungee-font display-4">Customer Reviews</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <div class="mb-3">
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                            </div>
+                            <p class="card-text">"Amazing coffee and friendly staff! The atmosphere is perfect for a morning brew."</p>
+                            <footer class="blockquote-footer">Sarah M.</footer>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <div class="mb-3">
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                            </div>
+                            <p class="card-text">"Best coffee in Port Noarlunga! Love the seasonal chips and the cozy vibe."</p>
+                            <footer class="blockquote-footer">John D.</footer>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <div class="mb-3">
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-half text-warning"></i>
+                            </div>
+                            <p class="card-text">"Great service and quality food. The hashbrown special is my favorite!"</p>
+                            <footer class="blockquote-footer">Emma L.</footer>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- About & Accessibility Section -->
+    <section id="about" class="section-padding">
+        <div class="container">
+            <h2 class="text-center mb-5 bungee-font display-4">About & Accessibility</h2>
+            
+            <div class="row mb-5">
+                <div class="col-lg-8 mx-auto text-center">
+                    <p class="lead">At Coffee Factory Cafe, we believe everyone deserves great coffee and food. We're committed to providing an inclusive and welcoming environment for all our customers.</p>
+                </div>
+            </div>
+            
+            <h3 class="text-center mb-4">Accessibility Features</h3>
+            <div class="accessibility-grid">
+                <div class="accessibility-item">
+                    <i class="bi bi-p-square-fill"></i>
+                    <h5>Wheelchair-Accessible Car Park</h5>
+                    <p>Dedicated accessible parking spaces available</p>
+                </div>
+                <div class="accessibility-item">
+                    <i class="bi bi-door-open-fill"></i>
+                    <h5>Wheelchair-Accessible Entrance</h5>
+                    <p>Step-free entry with automatic doors</p>
+                </div>
+                <div class="accessibility-item">
+                    <i class="bi bi-chair-fill"></i>
+                    <h5>Wheelchair-Accessible Seating</h5>
+                    <p>Comfortable accessible seating areas</p>
+                </div>
+                <div class="accessibility-item">
+                    <i class="bi bi-water"></i>
+                    <h5>Wheelchair-Accessible Toilet</h5>
+                    <p>Fully equipped accessible facilities</p>
+                </div>
+            </div>
+            
+            <h3 class="text-center mb-4 mt-5">Service Options</h3>
+            <div class="accessibility-grid">
+                <div class="accessibility-item">
+                    <i class="bi bi-sun-fill"></i>
+                    <h5>Outdoor Seating</h5>
+                    <p>Enjoy your coffee in our outdoor area</p>
+                </div>
+                <div class="accessibility-item">
+                    <i class="bi bi-truck"></i>
+                    <h5>No-Contact Delivery</h5>
+                    <p>Safe delivery options available</p>
+                </div>
+                <div class="accessibility-item">
+                    <i class="bi bi-bag-fill"></i>
+                    <h5>Takeaway</h5>
+                    <p>Quick takeaway service for busy days</p>
+                </div>
+                <div class="accessibility-item">
+                    <i class="bi bi-cup-hot-fill"></i>
+                    <h5>Dine-in</h5>
+                    <p>Relax and enjoy our cafe atmosphere</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact & Socials Section -->
+    <footer id="contact" class="bg-dark text-white section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <h4 class="mb-3 bungee-font">Contact Us</h4>
+                    <p><i class="bi bi-geo-alt-fill me-2"></i>13 Gawler St, Port Noarlunga South</p>
+                    <p><i class="bi bi-telephone-fill me-2"></i>+61 8 8326 2339</p>
+                    <p><i class="bi bi-envelope-fill me-2"></i>info@coffeefactorycafe.com.au</p>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <h4 class="mb-3 bungee-font">Follow Us</h4>
+                    <div class="d-flex gap-3">
+                        <a href="https://m.facebook.com" target="_blank" class="text-white fs-3">
+                            <i class="bi bi-facebook"></i>
+                        </a>
+                        <a href="#" class="text-white fs-3">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                        <a href="#" class="text-white fs-3">
+                            <i class="bi bi-twitter"></i>
+                        </a>
+                        <a href="#" class="text-white fs-3">
+                            <i class="bi bi-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <h4 class="mb-3 bungee-font">Quick Links</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="#overview" class="text-white text-decoration-none">Overview</a></li>
+                        <li><a href="#menu" class="text-white text-decoration-none">Menu</a></li>
+                        <li><a href="#reviews" class="text-white text-decoration-none">Reviews</a></li>
+                        <li><a href="#about" class="text-white text-decoration-none">About</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="text-center">
+                <p>&copy; 2024 Coffee Factory Cafe. All rights reserved. | Premium Coffee & Food Experience</p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- External JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
